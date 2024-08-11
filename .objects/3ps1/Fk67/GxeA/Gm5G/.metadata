@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Select Item 'Модель'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "Gm5Gs_1ATUWiZnFk8xD06Q",
+  "Reference": "n933FNhJFE6nC5Isd6K3TQ/Gm5Gs_1ATUWiZnFk8xD06Q",
+  "ParentRef": "n933FNhJFE6nC5Isd6K3TQ/GxeADb7JAk-E6OUrQ0znng",
+  "Created": "2024-08-11T21:11:17.9782367Z",
+  "Updated": "2024-08-11T21:11:17.9782367Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

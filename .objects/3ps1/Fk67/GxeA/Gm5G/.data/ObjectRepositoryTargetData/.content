@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="fI1ywlbQ1UCnphfIGLhbwQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://cars.av.by/" CVScreenId="3f461797-dbbc-43ef-99d3-577db5e476d6" CvElementArea="650, 569, 18, 17" CvTextArea="585, 570, 65, 18" CvTextArgument="Mone/b" CvType="ArrowButton" DesignTimeRectangle="586, 570, 77, 20" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl class='dropdown-floatlabel__value' parentname='p-6-0-3-model' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl class='dropdown-floatlabel__value' parentname='p-6-0-3-model' tag='SPAN' type='' aaname=' Модель' check:innerText='Модель' /&gt;" Guid="aac5ecd0-0f28-4928-bdbd-c5ed28971421" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Объявления о продаже автомобилей в Беларуси. Купить или продать автомобиль с пробегом, новый или б/у на Автомалиновке.' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="3f461797-dbbc-43ef-99d3-577db5e476d6" CvElementArea="650, 569, 18, 17" CvTextArea="585, 570, 65, 18" CvTextArgument="Mone/b" CvType="ArrowButton" DesignTimeRectangle="571, 555, 301, 44" ElementType="Button" FullSelectorArgument="&lt;webctrl name='p-6-0-3-model' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl name='p-6-0-3-model' tag='BUTTON' type='button' class='dropdown__control dropdown-floatlabel' aaname='Модель' check:innerText='Модель&amp;#xD;&amp;#xA;Модель' /&gt;" Guid="3480d4f8-5f05-4081-8989-65d3084f0440" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5ab0fd8db434f191d88ea9ba262cb508.png" xmlns="">0z10RvGC3q0qFIKG8JlPPqQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
