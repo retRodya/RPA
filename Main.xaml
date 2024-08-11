@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1026,7357" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:upaf="clr-namespace:UiPath.Persistence.Activities.FormTask;assembly=UiPath.Persistence.Activities" xmlns:uuam="clr-namespace:UiPath.UIAutomationNext.Activities.Models;assembly=UiPath.UIAutomationNext.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1026,6014" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:upaf="clr-namespace:UiPath.Persistence.Activities.FormTask;assembly=UiPath.Persistence.Activities" xmlns:uuam="clr-namespace:UiPath.UIAutomationNext.Activities.Models;assembly=UiPath.UIAutomationNext.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -176,7 +176,7 @@
       <x:Boolean x:Key="ShouldCollapseAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="Main_Sequence" sap:VirtualizedContainerService.HintSize="858,7292" sap2010:WorkflowViewState.IdRef="Sequence_5">
+  <Sequence DisplayName="Main_Sequence" sap:VirtualizedContainerService.HintSize="732,5949" sap2010:WorkflowViewState.IdRef="Sequence_5">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="brand" />
       <Variable x:TypeArguments="x:String" Name="priceFrom" />
@@ -205,14 +205,14 @@
         <x:Boolean x:Key="IsPinned">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="UserDataInputSequence" sap:VirtualizedContainerService.HintSize="796,641" sap2010:WorkflowViewState.IdRef="Sequence_37">
+    <Sequence DisplayName="UserDataInputSequence" sap:VirtualizedContainerService.HintSize="670,641" sap2010:WorkflowViewState.IdRef="Sequence_37">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsPinned">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <upaf:CreateFormTask BucketName="{x:Null}" BulkFormLayout="{x:Null}" DynamicFormPath="{x:Null}" ExternalTag="{x:Null}" Labels="{x:Null}" TaskCatalog="{x:Null}" TimeoutMs="{x:Null}" BucketFolderPath="rodion8999@gmail.com's workspace" BulkFormLayoutGuid="f5f19e61-f803-492f-a19a-58a41bb24012" DisplayName="UserCriteriaForm" EnableBulkEdit="False" EnableDynamicForms="False" EnableV2="False" FolderPath="rodion8999@gmail.com's workspace" FormLayout="%[{&quot;label&quot;:&quot;Brand&quot;,&quot;labelPosition&quot;:&quot;left-left&quot;,&quot;placeholder&quot;:&quot;write brand&quot;,&quot;tableView&quot;:true,&quot;key&quot;:&quot;brand&quot;,&quot;type&quot;:&quot;textfield&quot;,&quot;input&quot;:true,&quot;labelWidth&quot;:3,&quot;labelMargin&quot;:3},{&quot;label&quot;:&quot;Model&quot;,&quot;labelPosition&quot;:&quot;left-left&quot;,&quot;tableView&quot;:true,&quot;key&quot;:&quot;model&quot;,&quot;type&quot;:&quot;textfield&quot;,&quot;input&quot;:true,&quot;labelWidth&quot;:3,&quot;labelMargin&quot;:3},{&quot;label&quot;:&quot;Price &quot;,&quot;placeholder&quot;:&quot;price from&quot;,&quot;tableView&quot;:true,&quot;key&quot;:&quot;priceFrom&quot;,&quot;type&quot;:&quot;textfield&quot;,&quot;input&quot;:true},{&quot;label&quot;:&quot;Price&quot;,&quot;placeholder&quot;:&quot;price to&quot;,&quot;hideLabel&quot;:true,&quot;tableView&quot;:true,&quot;key&quot;:&quot;priceTo&quot;,&quot;type&quot;:&quot;textfield&quot;,&quot;input&quot;:true},{&quot;label&quot;:&quot;Find car&quot;,&quot;disableOnInvalid&quot;:true,&quot;tableView&quot;:true,&quot;key&quot;:&quot;submit&quot;,&quot;custom&quot;:&quot;instance.emit('executeDoBlock', instance.component);&quot;,&quot;type&quot;:&quot;button&quot;,&quot;input&quot;:true,&quot;alwaysEnabled&quot;:false,&quot;isResetData&quot;:false}]" FormLayoutGuid="5567b546-2fd3-41aa-8cc7-10bd43ad2105" GenerateInputFields="False" sap:VirtualizedContainerService.HintSize="388,357" sap2010:WorkflowViewState.IdRef="CreateFormTask_7" TaskOutput="[userCriteria]" TaskPriority="Medium" TaskTitle="Car criteria">
+      <upaf:CreateFormTask BucketName="{x:Null}" BulkFormLayout="{x:Null}" DynamicFormPath="{x:Null}" ExternalTag="{x:Null}" Labels="{x:Null}" TaskCatalog="{x:Null}" TimeoutMs="{x:Null}" BucketFolderPath="rodion8999@gmail.com's workspace" BulkFormLayoutGuid="d4938d46-af17-4ee5-bc1b-7e4b4c062c13" DisplayName="UserCriteriaForm" EnableBulkEdit="False" EnableDynamicForms="False" EnableV2="False" FolderPath="rodion8999@gmail.com's workspace" FormLayout="%[{&quot;label&quot;:&quot;Brand&quot;,&quot;labelPosition&quot;:&quot;left-left&quot;,&quot;placeholder&quot;:&quot;write brand&quot;,&quot;tableView&quot;:true,&quot;key&quot;:&quot;brand&quot;,&quot;type&quot;:&quot;textfield&quot;,&quot;input&quot;:true,&quot;labelWidth&quot;:3,&quot;labelMargin&quot;:3},{&quot;label&quot;:&quot;Model&quot;,&quot;labelPosition&quot;:&quot;left-left&quot;,&quot;tableView&quot;:true,&quot;key&quot;:&quot;model&quot;,&quot;type&quot;:&quot;textfield&quot;,&quot;input&quot;:true,&quot;labelWidth&quot;:3,&quot;labelMargin&quot;:3},{&quot;label&quot;:&quot;Price &quot;,&quot;placeholder&quot;:&quot;price from&quot;,&quot;tableView&quot;:true,&quot;key&quot;:&quot;priceFrom&quot;,&quot;type&quot;:&quot;textfield&quot;,&quot;input&quot;:true},{&quot;label&quot;:&quot;Price&quot;,&quot;placeholder&quot;:&quot;price to&quot;,&quot;hideLabel&quot;:true,&quot;tableView&quot;:true,&quot;key&quot;:&quot;priceTo&quot;,&quot;type&quot;:&quot;textfield&quot;,&quot;input&quot;:true},{&quot;label&quot;:&quot;Find car&quot;,&quot;disableOnInvalid&quot;:true,&quot;tableView&quot;:true,&quot;key&quot;:&quot;submit&quot;,&quot;custom&quot;:&quot;instance.emit('executeDoBlock', instance.component);&quot;,&quot;type&quot;:&quot;button&quot;,&quot;input&quot;:true,&quot;alwaysEnabled&quot;:false,&quot;isResetData&quot;:false}]" FormLayoutGuid="7843d48f-d570-4db3-81dc-088ecd60f6e1" GenerateInputFields="False" sap:VirtualizedContainerService.HintSize="388,357" sap2010:WorkflowViewState.IdRef="CreateFormTask_7" TaskOutput="[userCriteria]" TaskPriority="Medium" TaskTitle="Car criteria">
         <upaf:CreateFormTask.FormData>
           <OutArgument x:TypeArguments="x:String" x:Key="brand">[brand]</OutArgument>
           <OutArgument x:TypeArguments="x:String" x:Key="model">[model]</OutArgument>
@@ -233,34 +233,34 @@
         </sap:WorkflowViewStateService.ViewState>
       </upaf:WaitForFormTaskAndResume>
     </Sequence>
-    <Sequence DisplayName="UA/BSequence" sap:VirtualizedContainerService.HintSize="796,6563" sap2010:WorkflowViewState.IdRef="Sequence_7">
+    <Sequence DisplayName="UA/BSequence" sap:VirtualizedContainerService.HintSize="670,5220" sap2010:WorkflowViewState.IdRef="Sequence_7">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsPinned">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="cars.av.by" sap:VirtualizedContainerService.HintSize="734,6452" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="353aabfb-eb0a-4c34-bb3b-c9b535eb8f37" Version="V2">
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="cars.av.by" sap:VirtualizedContainerService.HintSize="608,5109" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="353aabfb-eb0a-4c34-bb3b-c9b535eb8f37" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="700,6212" sap2010:WorkflowViewState.IdRef="Sequence_8">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="574,4869" sap2010:WorkflowViewState.IdRef="Sequence_8">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   <x:Boolean x:Key="IsPinned">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <Sequence DisplayName="WriteCriteriaSequence" sap:VirtualizedContainerService.HintSize="638,4752" sap2010:WorkflowViewState.IdRef="Sequence_20">
+              <Sequence DisplayName="WriteCriteriaSequence" sap:VirtualizedContainerService.HintSize="512,4779" sap2010:WorkflowViewState.IdRef="Sequence_20">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     <x:Boolean x:Key="IsPinned">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Brand'" sap:VirtualizedContainerService.HintSize="576,225" sap2010:WorkflowViewState.IdRef="NClick_15" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="353aabfb-eb0a-4c34-bb3b-c9b535eb8f37" Version="V3">
+                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Brand'" sap:VirtualizedContainerService.HintSize="450,225" sap2010:WorkflowViewState.IdRef="NClick_15" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="353aabfb-eb0a-4c34-bb3b-c9b535eb8f37" Version="V3">
                   <uix:NClick.Target>
                     <uix:TargetAnchorable BrowserURL="https://cars.av.by/" CVScreenId="766e3a58-8ca3-448a-b71c-0a6a7a4439ff" CvElementArea="342, 621, 18, 18" CvTextArea="288, 622, 53, 19" CvTextArgument="Mapka" CvType="ArrowButton" DesignTimeRectangle="289, 622, 66, 20" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl class='dropdown-floatlabel__value' parentname='p-6-0-2-brand' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl class='dropdown-floatlabel__value' parentname='p-6-0-2-brand' tag='SPAN' type='' aaname=' Марка' check:innerText='Марка' /&gt;" Guid="5baec015-e280-4156-a013-ca8fee5c9036" InformativeScreenshot="2b07744f69070063dc1b94654e327773.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Объявления о продаже автомобилей в Беларуси. Купить или продать автомобиль с пробегом, новый или б/у на Автомалиновке.' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
                       <uix:TargetAnchorable.Anchors>
@@ -286,7 +286,7 @@
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
                 </uix:NClick>
-                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Brand'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="576,286" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="353aabfb-eb0a-4c34-bb3b-c9b535eb8f37" Text="[brand.ToLower()]" Version="V3">
+                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Brand'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="450,286" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="353aabfb-eb0a-4c34-bb3b-c9b535eb8f37" Text="[brand.ToLower()]" Version="V3">
                   <uix:NTypeInto.Target>
                     <uix:TargetAnchorable BrowserURL="https://cars.av.by/" CVScreenId="6abf32d1-e5ed-42c9-8380-f2aa01fde6a2" CvTextArea="289, 721, 45, 14" CvTextArgument="NoncK" CvType="Text" DesignTimeRectangle="269, 708, 253, 40" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='dropdown__input' placeholder='Поиск' aaname='' /&gt;" Guid="b020c135-932d-4db5-aec6-bf9c2c769d2c" InformativeScreenshot="465027246ef25f86379b61fafcf7f141.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Объявления о продаже автомобилей в Беларуси. Купить или продать автомобиль с пробегом, новый или б/у на Автомалиновке.' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
                       <uix:TargetAnchorable.Anchors>
@@ -312,7 +312,7 @@
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
                 </uix:NTypeInto>
-                <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="BrandEnter" sap:VirtualizedContainerService.HintSize="576,247" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_2" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V3">
+                <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="BrandEnter" sap:VirtualizedContainerService.HintSize="450,247" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_2" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V3">
                   <uix:NKeyboardShortcuts.VerifyOptions>
                     <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
                       <uix:VerifyExecutionOptions.Retry>
@@ -330,7 +330,7 @@
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
                 </uix:NKeyboardShortcuts>
-                <ui:CommentOut DisplayName="ne osilil (((" sap:VirtualizedContainerService.HintSize="576,57" sap2010:WorkflowViewState.IdRef="CommentOut_24">
+                <ui:CommentOut DisplayName="ne osilil (((" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="CommentOut_24">
                   <ui:CommentOut.Body>
                     <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="638,1218" sap2010:WorkflowViewState.IdRef="Sequence_54">
                       <sap:WorkflowViewStateService.ViewState>
@@ -356,7 +356,7 @@
                                 <uix:NGetAttributeGeneric.Target>
                                   <uix:TargetAnchorable BrowserURL="https://cars.av.by/" CVScreenId="23d5c778-08b2-4609-b6e3-fe1c0bd5b51a" CvTextArea="584, 612, 53, 14" CvTextArgument="Jro6on" CvType="Text" DesignTimeRectangle="571, 600, 270, 38" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl class='dropdown__listbutton' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl class='dropdown__listbutton' tag='BUTTON' type='button' aaname='Любой' check:innerText='Любой' /&gt;" Guid="d27dbc51-0b59-4d89-9448-74a8acbc4019" InformativeScreenshot="0a2145ad6366a4fa7bf2742b643db57e.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Объявления о продаже автомобилей в Беларуси. Купить или продать автомобиль с пробегом, новый или б/у на Автомалиновке.' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
                                     <uix:TargetAnchorable.Anchors>
-                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                         <uix:Target CVScreenId="23d5c778-08b2-4609-b6e3-fe1c0bd5b51a" CvTextArea="584, 612, 53, 14" CvTextArgument="Jro6on" CvType="Text" DesignTimeRectangle="584, 611, 52, 15" ElementType="Text" Guid="06056e1a-13ce-4200-98c4-56565d3b56c5" SearchSteps="CV" TargetType="ComputerVisionBased" />
                                       </scg:List>
                                     </uix:TargetAnchorable.Anchors>
@@ -474,7 +474,7 @@
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
                 </ui:CommentOut>
-                <uix:NSelectItem DisplayName="Select Item 'Select Item 'Модель''" sap:VirtualizedContainerService.HintSize="576,189" sap2010:WorkflowViewState.IdRef="NSelectItem_3" Item="[model]" ScopeIdentifier="353aabfb-eb0a-4c34-bb3b-c9b535eb8f37" Version="V3">
+                <uix:NSelectItem DisplayName="Select Item 'Select Item 'Модель''" sap:VirtualizedContainerService.HintSize="450,189" sap2010:WorkflowViewState.IdRef="NSelectItem_3" Item="[model]" ScopeIdentifier="353aabfb-eb0a-4c34-bb3b-c9b535eb8f37" Version="V3">
                   <uix:NSelectItem.Items>
                     <scg:List x:TypeArguments="x:String" Capacity="3">
                       <x:String>Любой</x:String>
@@ -497,11 +497,11 @@
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
                 </uix:NSelectItem>
-                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Currency'" sap:VirtualizedContainerService.HintSize="576,225" sap2010:WorkflowViewState.IdRef="NClick_22" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="353aabfb-eb0a-4c34-bb3b-c9b535eb8f37" Version="V3">
+                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Currency'" sap:VirtualizedContainerService.HintSize="450,225" sap2010:WorkflowViewState.IdRef="NClick_22" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="353aabfb-eb0a-4c34-bb3b-c9b535eb8f37" Version="V3">
                   <uix:NClick.Target>
                     <uix:TargetAnchorable BrowserURL="https://cars.av.by/" CVScreenId="022f2038-f3cf-4183-bbbd-f5c64e97a3ce" CvElementArea="844, 631, 18, 16" CvTextArea="810, 631, 33, 15" CvTextArgument="USD" CvType="ArrowButton" DesignTimeRectangle="811, 631, 46, 20" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl class='dropdown-floatlabel__value' parentname='p-10-price_currency' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl class='dropdown-floatlabel__value' parentname='p-10-price_currency' tag='SPAN' type='' aaname=' USD' check:innerText='USD' /&gt;" Guid="097c2973-faf9-44fb-85de-ac52fd4264fc" InformativeScreenshot="582e72e8c109d49ad12abf124ea428f2.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Объявления о продаже автомобилей в Беларуси. Купить или продать автомобиль с пробегом, новый или б/у на Автомалиновке.' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
                       <uix:TargetAnchorable.Anchors>
-                        <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                           <uix:Target DesignTimeRectangle="796, 609, 76, 44" ElementType="Button" FullSelectorArgument="&lt;webctrl name='p-10-price_currency' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl name='p-10-price_currency' tag='BUTTON' type='button' class='dropdown__control dropdown__control--active dropdown-floatlabel' aaname='USD' check:innerText='Валюта&amp;#xD;&amp;#xA;USD' /&gt;" Guid="5cc82de2-1753-4b68-ac2d-2fa12a5042e6" SearchSteps="FuzzySelector" />
                         </scg:List>
                       </uix:TargetAnchorable.Anchors>
@@ -524,7 +524,7 @@
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
                 </uix:NClick>
-                <uix:NClick ActivateBefore="True" DisplayName="Click 'BYN'" sap:VirtualizedContainerService.HintSize="576,225" sap2010:WorkflowViewState.IdRef="NClick_23" MouseButton="Left" ScopeIdentifier="353aabfb-eb0a-4c34-bb3b-c9b535eb8f37" Version="V3">
+                <uix:NClick ActivateBefore="True" DisplayName="Click 'BYN'" sap:VirtualizedContainerService.HintSize="450,225" sap2010:WorkflowViewState.IdRef="NClick_23" MouseButton="Left" ScopeIdentifier="353aabfb-eb0a-4c34-bb3b-c9b535eb8f37" Version="V3">
                   <uix:NClick.ClickType>
                     <InArgument x:TypeArguments="uix:NClickType">
                       <Literal x:TypeArguments="uix:NClickType" sap2010:WorkflowViewState.IdRef="Literal`1_2" />
@@ -538,7 +538,7 @@
                   <uix:NClick.Target>
                     <uix:TargetAnchorable BrowserURL="https://cars.av.by/" CVScreenId="db564967-3167-498a-98f7-d083262a563b" CvTextArea="810, 704, 31, 14" CvTextArgument="BYN" CvType="Text" DesignTimeRectangle="796, 692, 270, 38" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='BYN' class='dropdown__listbutton' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='BYN' class='dropdown__listbutton' tag='BUTTON' type='button' check:innerText='BYN' /&gt;" Guid="ad8e7e8d-a30d-423a-a9ed-8c1487303146" InformativeScreenshot="626df564fa7c2838653b022378bae901.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Объявления о продаже автомобилей в Беларуси. Купить или продать автомобиль с пробегом, новый или б/у на Автомалиновке.' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
                       <uix:TargetAnchorable.Anchors>
-                        <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                           <uix:Target CVScreenId="db564967-3167-498a-98f7-d083262a563b" CvElementArea="844, 631, 18, 17" CvTextArea="810, 631, 33, 15" CvTextArgument="USD" CvType="ArrowButton" DesignTimeRectangle="811, 631, 46, 20" ElementType="Text" FullSelectorArgument="&lt;webctrl class='dropdown-floatlabel__value' parentname='p-10-price_currency' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl class='dropdown-floatlabel__value' parentname='p-10-price_currency' tag='SPAN' type='' aaname=' USD' check:innerText='USD' /&gt;" Guid="6d3694ce-4a10-4a49-9f45-cad4a5f32992" SearchSteps="FuzzySelector, CV" />
                         </scg:List>
                       </uix:TargetAnchorable.Anchors>
@@ -560,7 +560,7 @@
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
                 </uix:NClick>
-                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Price from'" sap:VirtualizedContainerService.HintSize="576,225" sap2010:WorkflowViewState.IdRef="NClick_18" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="353aabfb-eb0a-4c34-bb3b-c9b535eb8f37" Version="V3">
+                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Price from'" sap:VirtualizedContainerService.HintSize="450,225" sap2010:WorkflowViewState.IdRef="NClick_18" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="353aabfb-eb0a-4c34-bb3b-c9b535eb8f37" Version="V3">
                   <uix:NClick.Target>
                     <uix:TargetAnchorable BrowserURL="https://cars.av.by/" CVScreenId="b0e68493-cf8b-41c3-a064-fa9ecef71ed7" CvTextArea="586, 676, 65, 19" CvTextArgument="4eha OT" CvType="Text" DesignTimeRectangle="586, 673, 67, 22" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='richinput-control__value' aaname='' /&gt;" Guid="f9c5fdee-60ad-42f6-a28c-146361d9050e" InformativeScreenshot="9aa13182ddc3cb0f2e86f087b239849c.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Объявления о продаже автомобилей в Беларуси. Купить или продать автомобиль с пробегом, новый или б/у на Автомалиновке.' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
                       <uix:TargetAnchorable.Anchors>
@@ -595,7 +595,7 @@
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
                 </uix:NClick>
-                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Price from'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="576,286" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="353aabfb-eb0a-4c34-bb3b-c9b535eb8f37" Text="[priceFrom]" Version="V3">
+                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Price from'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="450,286" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="353aabfb-eb0a-4c34-bb3b-c9b535eb8f37" Text="[priceFrom]" Version="V3">
                   <uix:NTypeInto.Target>
                     <uix:TargetAnchorable BrowserURL="https://cars.av.by/" CVScreenId="1830e67c-de33-43a4-a2d5-d390de4e839f" CvTextArea="585, 667, 44, 13" CvTextArgument="4eHa OT" CvType="Text" DesignTimeRectangle="586, 661, 97, 44" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='__next' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='__next' tag='LABEL' type='' class='richinput-control__box' aaname='' check:innerText='Цена от' /&gt;" Guid="0e2944c4-c2cb-4f53-967a-ff4c51db27b4" InformativeScreenshot="ea613ed958f57133c90319a501fd89a5.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Объявления о продаже автомобилей в Беларуси. Купить или продать автомобиль с пробегом, новый или б/у на Автомалиновке.' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
                   </uix:NTypeInto.Target>
@@ -624,7 +624,7 @@
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
                 </uix:NTypeInto>
-                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Price to'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="576,286" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="353aabfb-eb0a-4c34-bb3b-c9b535eb8f37" Text="[priceTo]" Version="V3">
+                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Price to'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="450,286" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="353aabfb-eb0a-4c34-bb3b-c9b535eb8f37" Text="[priceTo]" Version="V3">
                   <uix:NTypeInto.Target>
                     <uix:TargetAnchorable BrowserURL="https://cars.av.by/" CVScreenId="83983714-9f08-4298-abdb-f5855fad0f66" CvTextArea="696, 679, 23, 15" CvTextArgument="AO" CvType="Text" DesignTimeRectangle="698, 673, 68, 22" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl idx='2' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl class='richinput-control__value' tag='INPUT' type='text' aaname='' /&gt;" Guid="bb977f95-112f-4c78-b468-cea33447f491" InformativeScreenshot="65a2321502dcbce0d9fc36c9542f2458.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Объявления о продаже автомобилей в Беларуси. Купить или продать автомобиль с пробегом, новый или б/у на Автомалиновке.' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
                       <uix:TargetAnchorable.Anchors>
@@ -659,7 +659,7 @@
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
                 </uix:NTypeInto>
-                <ui:WaitUiElementAppear WaitActive="{x:Null}" WaitVisible="{x:Null}" ContinueOnError="True" DisplayName="noResultsFindElement" FoundElement="[noResultsFindElement]" sap:VirtualizedContainerService.HintSize="576,139" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_2">
+                <ui:WaitUiElementAppear WaitActive="{x:Null}" WaitVisible="{x:Null}" ContinueOnError="True" DisplayName="noResultsFindElement" FoundElement="[noResultsFindElement]" sap:VirtualizedContainerService.HintSize="450,139" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_2">
                   <ui:WaitUiElementAppear.Target>
                     <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="d4fe0c51-0160-4a94-995d-993342d32c94" InformativeScreenshot="33366f898be4c21eb10efaee5be3efd5" Selector="&lt;webctrl aaname='Ничего не найдено' tag='A' /&gt;">
                       <ui:Target.TimeoutMS>
@@ -676,7 +676,7 @@
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
                 </ui:WaitUiElementAppear>
-                <If Condition="[noResultsFindElement isNot Nothing]" sap:VirtualizedContainerService.HintSize="576,906" sap2010:WorkflowViewState.IdRef="If_2">
+                <If Condition="[noResultsFindElement isNot Nothing]" sap:VirtualizedContainerService.HintSize="450,906" sap2010:WorkflowViewState.IdRef="If_2">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsPinned">True</x:Boolean>
@@ -755,7 +755,7 @@
                     </Sequence>
                   </If.Else>
                 </If>
-                <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[ExtractDataTable]" DisplayName="Extract CarInfo Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='Name'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column1' Name='Url'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;true&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column2' Name='Price'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='NumberColumnFormat' DecimalSeparator='' ThousandsSeparator='' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;row exact='1'&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;/row&gt;&lt;column exact='1' name='Column0' attr='fulltext' name2='Column1' attr2='href'&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='h3' idx='1' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column2' attr='fulltext'&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='4' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="576,189" sap2010:WorkflowViewState.IdRef="NExtractData_3" LimitExtractionTo="Rows" MaximumResults="10" ScopeIdentifier="353aabfb-eb0a-4c34-bb3b-c9b535eb8f37" Version="V3">
+                <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[ExtractDataTable]" DisplayName="Extract CarInfo Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='Name'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column1' Name='Url'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;true&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column2' Name='Price'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='NumberColumnFormat' DecimalSeparator='' ThousandsSeparator='' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;row exact='1'&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;/row&gt;&lt;column exact='1' name='Column0' attr='fulltext' name2='Column1' attr2='href'&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='h3' idx='1' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column2' attr='fulltext'&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='4' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="450,189" sap2010:WorkflowViewState.IdRef="NExtractData_3" LimitExtractionTo="Rows" MaximumResults="10" ScopeIdentifier="353aabfb-eb0a-4c34-bb3b-c9b535eb8f37" Version="V3">
                   <uix:NExtractData.Target>
                     <uix:TargetAnchorable BrowserURL="https://cars.av.by/filter?brands[0][brand]=2521&amp;price_byn[min]=1&amp;price_byn[max]=111111&amp;price_currency=1&amp;page=2" DesignTimeRectangle="340, -5354, 905, 11667" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl class='listing__items' parentid='__next' tag='DIV' /&gt;" Guid="8b82b561-0bcc-4186-95f3-c78318457e70" InformativeScreenshot="e7e2fe363de8f3ce494c96ed4c56f6e9.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Объявления о продаже автомобилей в Беларуси. Купить или продать автомобиль с пробегом, новый или б/у на Автомалиновке.' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
                   </uix:NExtractData.Target>
@@ -765,21 +765,21 @@
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
                 </uix:NExtractData>
-                <ui:WriteRange StartingCell="{x:Null}" AddHeaders="True" DataTable="[ExtractDataTable]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="576,148" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="SearchResults" WorkbookPath="AVby10Cars.xlsx">
+                <ui:WriteRange StartingCell="{x:Null}" AddHeaders="True" DataTable="[ExtractDataTable]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="450,148" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="SearchResults" WorkbookPath="AVby10Cars.xlsx">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsPinned">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
                 </ui:WriteRange>
-                <ui:ReadRange AddHeaders="True" DataTable="[excelTenCarsData]" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="576,120" sap2010:WorkflowViewState.IdRef="ReadRange_1" Range="[&quot;A1:&quot;+&quot;C11&quot;]" SheetName="SearchResults" WorkbookPath="AVby10Cars.xlsx">
+                <ui:ReadRange AddHeaders="True" DataTable="[excelTenCarsData]" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="450,120" sap2010:WorkflowViewState.IdRef="ReadRange_1" Range="[&quot;A1:&quot;+&quot;C11&quot;]" SheetName="SearchResults" WorkbookPath="AVby10Cars.xlsx">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsPinned">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
                 </ui:ReadRange>
-                <Assign DisplayName="minPriceAssign" sap:VirtualizedContainerService.HintSize="576,114" sap2010:WorkflowViewState.IdRef="Assign_1">
+                <Assign DisplayName="minPriceAssign" sap:VirtualizedContainerService.HintSize="450,114" sap2010:WorkflowViewState.IdRef="Assign_1">
                   <Assign.To>
                     <OutArgument x:TypeArguments="x:Double">[minPrice]</OutArgument>
                   </Assign.To>
@@ -793,7 +793,7 @@
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
                 </Assign>
-                <Assign DisplayName="maxPriceAssign" sap:VirtualizedContainerService.HintSize="576,114" sap2010:WorkflowViewState.IdRef="Assign_2">
+                <Assign DisplayName="maxPriceAssign" sap:VirtualizedContainerService.HintSize="450,114" sap2010:WorkflowViewState.IdRef="Assign_2">
                   <Assign.To>
                     <OutArgument x:TypeArguments="x:Double">[maxPrice]</OutArgument>
                   </Assign.To>
@@ -806,7 +806,7 @@
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
                 </Assign>
-                <Assign DisplayName="minRowAssign" sap:VirtualizedContainerService.HintSize="576,114" sap2010:WorkflowViewState.IdRef="Assign_3">
+                <Assign DisplayName="minRowAssign" sap:VirtualizedContainerService.HintSize="450,114" sap2010:WorkflowViewState.IdRef="Assign_3">
                   <Assign.To>
                     <OutArgument x:TypeArguments="sd:DataRow">[minRow]</OutArgument>
                   </Assign.To>
@@ -819,7 +819,7 @@
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
                 </Assign>
-                <Assign DisplayName="maxRowAssign" sap:VirtualizedContainerService.HintSize="576,114" sap2010:WorkflowViewState.IdRef="Assign_4">
+                <Assign DisplayName="maxRowAssign" sap:VirtualizedContainerService.HintSize="450,114" sap2010:WorkflowViewState.IdRef="Assign_4">
                   <Assign.To>
                     <OutArgument x:TypeArguments="sd:DataRow">[maxRow]</OutArgument>
                   </Assign.To>
@@ -832,7 +832,7 @@
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
                 </Assign>
-                <Assign DisplayName="minCarInfoAssign" sap:VirtualizedContainerService.HintSize="576,114" sap2010:WorkflowViewState.IdRef="Assign_5">
+                <Assign DisplayName="minCarInfoAssign" sap:VirtualizedContainerService.HintSize="450,114" sap2010:WorkflowViewState.IdRef="Assign_5">
                   <Assign.To>
                     <OutArgument x:TypeArguments="x:String">[minCarInfo]</OutArgument>
                   </Assign.To>
@@ -845,7 +845,7 @@
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
                 </Assign>
-                <Assign DisplayName="maxCarInfoAssign" sap:VirtualizedContainerService.HintSize="576,114" sap2010:WorkflowViewState.IdRef="Assign_6">
+                <Assign DisplayName="maxCarInfoAssign" sap:VirtualizedContainerService.HintSize="450,114" sap2010:WorkflowViewState.IdRef="Assign_6">
                   <Assign.To>
                     <OutArgument x:TypeArguments="x:String">[maxCarInfo]</OutArgument>
                   </Assign.To>
